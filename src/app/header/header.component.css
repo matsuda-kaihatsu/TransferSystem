@@ -1,0 +1,37 @@
+.inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: content-box;
+}
+.header {
+background: #fff;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+.header-title a{
+color: #F5F5F5;
+font-size: 24px;
+font-weight: bold;
+margin-left: 10px;
+}
+.header-nav {
+margin-left: auto;
+}
+.header-nav-list {
+display: flex;
+}
+.header-nav-item:not(:first-child){
+margin-left: 40px;
+}
+.header-nav-item-link {
+display: block;
+color: #F5F5F5;
+height: 80px;
+line-height: 80px;
+}
+
+
+ul {list-style: none;}
